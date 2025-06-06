@@ -20,7 +20,7 @@ export function Project() {
                 <a href="" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://ecommerce-1-fabv.onrender.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
