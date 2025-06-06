@@ -1,7 +1,8 @@
-import { Container } from "./styles";
+import styled from 'styled-components';
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
+import { Container } from './styles';
 
 
 export function Contact(){

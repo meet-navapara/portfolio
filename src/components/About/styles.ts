@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+interface ContainerProps {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
+}
+export const Container = styled.section<ContainerProps>`
   margin-top: 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
+interface ContainerProps {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
+}
 
-export const Container = styled.footer`
+export const Container = styled.footer<ContainerProps>`
   background-color: #2b2b2b;
   padding: 3rem 15rem;
   margin-top: 10rem;

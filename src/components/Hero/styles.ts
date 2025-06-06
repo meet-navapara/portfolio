@@ -1,6 +1,10 @@
 import styled from "styled-components";
-
-export const Container = styled.section`
+interface ContainerProps {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
+}
+export const Container = styled.section<ContainerProps>`
   padding-top: 15%;
   display: flex;
   justify-content: space-between;

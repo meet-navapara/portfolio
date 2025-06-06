@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
-
-export const Container = styled.header`
+interface ContainerProps {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
+}
+export const Container = styled.header<ContainerProps>`
   display: flex;
   justify-content: space-between;
   align-items: center;
