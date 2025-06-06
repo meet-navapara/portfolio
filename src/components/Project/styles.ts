@@ -17,7 +17,7 @@ export const Container = styled.section<ContainerProps>`
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     padding: 1rem;
     max-width: 1200px;
@@ -44,7 +44,7 @@ export const Container = styled.section<ContainerProps>`
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
+        margin-bottom: 2rem;
         
         .project-links {
           display: flex;
@@ -60,7 +60,7 @@ export const Container = styled.section<ContainerProps>`
       
       .body {
         flex: 1;
-        overflow: hidden;
+        min-height: 200px; /* Ensures consistent height */
         
         h3 {
           margin-bottom: 1.5rem;
@@ -70,44 +70,38 @@ export const Container = styled.section<ContainerProps>`
         p {
           letter-spacing: 0.05rem;
           margin-bottom: 2rem;
-          line-height: 1.5;
-          font-size: 1.4rem;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 6;
-          -webkit-box-orient: vertical;
-          
-          a {
-            color: #FFFF;
-            border-bottom: 1px solid var(--green);
-            transition: color 0.25s;
-            
-            &:hover {
-              color: var(--green);
-            }
-          }
+          line-height: 1.6;
+          font-size: 1.5rem;
+          overflow: visible; /* Changed from hidden */
+          white-space: normal; /* Ensures text wraps */
         }
       }
 
       footer {
         margin-top: auto;
+        padding-top: 1rem;
         
         .tech-list {
           display: flex;
           flex-wrap: wrap;
           align-items: center;
           gap: 1rem;
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           opacity: 0.8;
           
           li {
             background: rgba(0,0,0,0.2);
-            padding: 0.3rem 0.8rem;
+            padding: 0.4rem 1rem;
             border-radius: 0.5rem;
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .projects {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }
 
@@ -120,24 +114,14 @@ export const Container = styled.section<ContainerProps>`
     }
     
     .projects {
-      grid-template-columns: 1fr;
       padding: 0;
       
       .project {
-        padding: 1.5rem;
-        
-        header {
-          margin-bottom: 2rem;
-          
-          svg {
-            width: 40px;
-          }
-        }
+        padding: 1.8rem;
         
         .body {
           p {
-            -webkit-line-clamp: 5;
-            font-size: 1.3rem;
+            font-size: 1.4rem;
           }
         }
       }
@@ -154,21 +138,17 @@ export const Container = styled.section<ContainerProps>`
     
     .projects {
       .project {
-        padding: 1.2rem;
+        padding: 1.5rem;
         
         .body {
+          min-height: auto;
+          
           h3 {
             font-size: 1.8rem;
           }
           
           p {
-            -webkit-line-clamp: 4;
-          }
-        }
-        
-        footer {
-          .tech-list {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
           }
         }
       }
