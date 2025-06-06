@@ -32,7 +32,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://wa.me/818401446125?text=Hello%2C%20I%27m%20interested%20in%20your%20service"
+          href="https://wa.me/918401446125?text=Hello%2C%20I%27m%20interested%20in%20your%20service"
           target="_blank"
           rel="noreferrer"
         >
