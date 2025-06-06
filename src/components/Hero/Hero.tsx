@@ -31,7 +31,7 @@ export function Hero() {
         </Fade>
         <Fade animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/meet-navapara-011675362/"
         target="_blank"
         rel="noreferrer"
       >
