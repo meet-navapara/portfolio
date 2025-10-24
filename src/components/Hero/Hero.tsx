@@ -22,7 +22,7 @@ export function Hero() {
           <h3>Full stack developer</h3>
         </Fade>
         <Fade animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">3 Year Experience</p>
+          <p className="small-resume">3+ Years Experience</p>
         </Fade>
         <Fade animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>

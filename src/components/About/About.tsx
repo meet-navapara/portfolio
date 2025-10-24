@@ -46,7 +46,7 @@ export function About() {
         <Fade animateIn="fadeInLeft" delay={550}>
           <div className="experience">
              <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>Binary Bird Technologies | February 2022 - April 2025</p>
+            <p>Binary Bird Technologies | February 2022 - January 2025</p>
             <p>Surat, India</p>
           </div>
         </Fade>
