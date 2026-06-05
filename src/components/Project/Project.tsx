@@ -37,6 +37,7 @@ export function Project() {
                 <li>MongoDB</li>
                 <li>REACTJS</li>
                 <li>NODEJS</li>
+                <li>PHP</li>
               </ul>
             </footer>
           </div>
@@ -70,6 +71,7 @@ export function Project() {
                 <li>MongoDB</li>
                 <li>REACTJS</li>
                 <li>NODEJS</li>
+                <li>PHP</li>
               </ul>
             </footer>
           </div>
@@ -105,6 +107,7 @@ export function Project() {
                 <li>MongoDB</li>
                 <li>REACTJS</li>
                 <li>NODEJS</li>
+                <li>PHP</li>
               </ul>
             </footer>
           </div>

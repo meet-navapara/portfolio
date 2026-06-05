@@ -12,6 +12,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import phpIcon from "../../assets/php-icon.svg";
 import { Fade } from 'react-awesome-reveal';
 export function About() {
   return (
@@ -84,6 +85,11 @@ export function About() {
           <div className="hability">
             <Fade animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={nodejs} alt="node" />
+            </Fade>
+          </div>
+          <div className="hability">
+            <Fade animateIn="fadeInUp" delay={0.16 * 1000}>
+              <img src={phpIcon} alt="PHP" />
             </Fade>
           </div>
           <div className="hability">
